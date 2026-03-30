@@ -178,7 +178,7 @@ export default function ScratchCard({ children, coverText = "", theme = "silver"
   const cornerClass = shape === "circle" ? "rounded-full" : "rounded-xl";
 
   return (
-    <div ref={containerRef} className={`relative w-full h-full cursor-crosshair select-none ${cornerClass}`}>
+    <div ref={containerRef} className={`relative w-full h-full select-none ${cornerClass}`}>
       <div className={`w-full h-full ${cornerClass} overflow-hidden`}>
         {children}
       </div>
