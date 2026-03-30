@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@import "tailwindcss";
+
+@theme inline {
+  --color-theater-cream: #F1EBDF;
+  --color-theater-red: #5C2018;
+  --color-theater-green: #3A4634;
+
+  --font-serif: var(--font-cormorant);
+  --font-cursive: var(--font-great-vibes);
+  --font-sans: var(--font-lora);
+  --font-body: var(--font-lora);
+}
+
+body {
+  background: var(--color-theater-cream);
+  color: var(--color-theater-red);
+}
+
+/* Hide all native cursors globally for our CustomCursor Component */
+* {
+  cursor: none !important;
+}
