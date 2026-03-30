@@ -9,7 +9,7 @@ export default function Welcome() {
   };
 
   return (
-    <section className="w-full py-24 md:py-32 flex flex-col items-center justify-center bg-theater-cream text-center px-6 relative overflow-hidden">
+    <section className="w-full py-12 md:py-16 flex flex-col items-center justify-center bg-theater-cream text-center px-6 relative overflow-hidden">
       <div className="max-w-3xl mx-auto flex flex-col items-center gap-8 relative z-10">
         <motion.p
           initial="hidden"

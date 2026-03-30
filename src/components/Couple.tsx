@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export default function Couple() {
   return (
-    <section className="w-full py-24 md:py-32 bg-theater-cream relative overflow-hidden flex flex-col items-center">
+    <section className="w-full py-12 md:py-16 bg-theater-cream relative overflow-hidden flex flex-col items-center">
       
       {/* Frame style border for image */}
       <motion.div 

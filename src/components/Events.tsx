@@ -48,7 +48,7 @@ export default function Events() {
   );
 
   return (
-    <section className="w-full py-24 bg-theater-cream relative overflow-hidden flex flex-col items-center border-t border-theater-red/20">
+    <section className="w-full py-12 bg-theater-cream relative overflow-hidden flex flex-col items-center border-t border-theater-red/20">
       <motion.div 
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}

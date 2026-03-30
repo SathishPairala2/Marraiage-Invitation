@@ -45,7 +45,7 @@ export default function Countdown() {
   ];
 
   return (
-    <section className="w-full py-16 bg-theater-cream flex flex-col items-center justify-center relative">
+    <section className="w-full py-10 bg-theater-cream flex flex-col items-center justify-center relative">
       <motion.div
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}

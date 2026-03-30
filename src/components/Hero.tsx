@@ -113,7 +113,7 @@ export default function Hero() {
                 Saritha
               </h1>
               <span className="text-sm md:text-base font-serif text-theater-green/70 my-4 tracking-[0.4em] uppercase">
-                And
+                Weds
               </span>
               <h1 className="text-7xl md:text-9xl 2xl:text-[11rem] font-cursive text-theater-red leading-none drop-shadow-sm">
                 Sravan Kumar
